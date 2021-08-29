@@ -1,0 +1,356 @@
+body{
+    background-color:#E5E5E5; 
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+}
+.nav{
+  display: flex; 
+  list-style-type: none;
+  justify-content:center;
+  padding: 4px 0;
+}
+.nav>li{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.nav>li>a{
+    text-decoration: none;
+    color: #333333;
+}
+.wraper{
+    max-width:1110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0;
+}
+.header{
+    background-color: #ffff;
+    padding:10px;
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:15px 0 12px 0;
+}
+
+.logo{
+    display: flex;
+    color: #66C05D;
+    font-size: 36px;
+    font-weight: 700;
+    align-items: center;
+    letter-spacing: 4px;
+}
+
+.logo-img{
+    display: block;
+    width: 80px;
+    height:80px;
+    background-image: url(../img/logo.svg) ;
+    margin-right:20px;
+}
+.header-info>span{
+    font-size:16px;
+}
+
+.header-info button{
+    font-size:14px;
+    border: 2px solid #66C05D;
+    border-radius: 20px;
+    background-color:transparent;
+    padding:10px 25px;
+    margin-left: 36px;
+    transition: 0.2s ease;
+}
+.header-info button:hover{
+    background-color:#66C05D;
+   
+}
+
+.header-buttom{
+    padding: 20px 0 27px 0;
+}
+
+.btn:hover{
+    background-color: #E5E5E5;
+    color: #333333;
+}
+
+.header-buttom>nav{
+    font-size: 16px;
+    margin:0;
+}
+
+.header-buttom>nav>li{
+    margin-left: 15px;
+    margin-right:15px;    
+}
+
+hr{
+    background-color: #EFEFEF;
+    height: 1px;
+}
+.banner{
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center;
+    padding-top: 159px;
+    padding-bottom: 150px;
+    color: #ffff;
+}
+.catalog{
+    padding-top:100px;
+    padding-bottom:133px;
+}
+.bg-green{
+    background-color: #66C05D;
+    color: #ffff;
+    padding: 34px 41px;
+    display:flex;
+    justify-self: space-between;
+    align-items: center;
+}
+.bg-green-item{
+  flex: 0 0 55%;  
+}
+.bg-green-item:last-child{
+    flex: 0 0 40%;
+    text-align: center;
+}
+
+.bg-green h3{
+    font-size: 18px;  
+    font-weight:700;
+    margin-top: 0;
+    margin-bottom:20px;
+}
+.bg-green p{
+   line-height: 1.5; 
+}
+
+.bg-green .btn{
+    display: block;
+    text-align: center;
+    max-width: 150px;
+    margin:17px;
+    padding: 8px 0;
+}
+
+.title{
+    color: rgb(10, 6, 6);
+    font-size:48px;
+    font-weight: 700;
+    margin-bottom:39px;
+    line-height:1.5
+}
+
+.title-h2{
+    font-size:24px;
+    font-weight:700;
+}
+.wraper>p{
+    margin-bottom:58px;
+    max-width: 315px;
+}
+
+.btn{
+    color: #ffff; 
+    text-decoration: none;
+    font-size:14px;
+    border: 2px solid #ffff;
+    border-radius: 20px;
+    background-color:transparent;
+    padding:9px 47px;
+}
+.bg-white{
+   background-color:#ffff;
+    padding: 20px 34px 30px;
+}
+
+.bg-green input{
+    font-size:14px;
+    border:  1px solid #fff;
+    border-radius:20px;
+    padding:10px 15px;
+    max-width:225px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.thumb{
+  margin-bottom: 20px;  
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 13px 30px;
+}
+.grid-item-title{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.grid-item-img{
+    grid-column: 4/5;
+    grid-row: 1/2;
+    text-align: center;
+}
+.grid-title{
+    color: black;
+    line-height:1.5;
+    margin-bottom: 0;
+
+}
+
+.grid-price{
+   font-size:21px;
+   font-weight:500; 
+   margin-top: 14px;
+   letter-spacing: 1px;
+   margin-bottom: 25;
+}
+.grid-btn{
+    border-radius: 30px;
+    border: 2px solid #66C05D;
+    background-color:#66C05D;
+    color: #ffff; 
+    padding:10px 25px;
+    transition: 0.2s ease;
+    text-decoration: none;
+}
+
+.grid-item-left{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-top: 80px;
+}
+
+.grid-item-right{
+    grid-column: 3/5;
+    grid-row: 3/4;
+    margin-top: 80px;
+}
+.grid-item-catalog{
+    text-align: center;
+    padding: 15px 30px;
+}
+.grid-item-catalog .bg-white{
+    padding: 15px 30px;
+}
+
+.grid-price{
+    color: black;
+}
+
+.footer-top{
+    padding-top: 25px;
+    padding-bottom: 20px;
+
+}
+
+.footer-bottum{
+    display: flex;
+    justify-self:space-between;
+    color:#828282;
+    padding:15px 0;
+    font-size:14px;
+    padding: 15px;
+}
+
+.footer-bottum p{
+    margin:0; 
+    
+}
+
+.footer-bottum a{
+    color:#828282;
+    text-decoration: none;
+    padding-left: 180px;
+}
+
+.footer-info{
+    display: flex;
+    align-items: center;
+}
+.footer-info span{
+    font-size: 16px;
+    margin-left: 36px;
+}
+
+.footer-info span :first-child{
+    font-size: 14px;
+}
+
+.footer-info:button{
+    font-size:14px;
+    border: 2px solid #66C05D;
+    border-radius: 20px;
+    background-color:transparent;
+    padding:10px 25px;
+    margin-left: 36px;
+    transition: 0.2s ease;
+}
+.footer-info:button{
+    background-color:#66C05D;
+}
+.social-link{
+    display: block;
+    width:40px;
+    height:45px;
+    border: 2px solid #66C05D;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+}
+
+.social{
+   display: flex; 
+   align-items:center;
+   list-style-type: none;
+   padding-left: 0;
+}
+.social-item{
+    margin-right: 20px;
+}
+.social-youtube{
+    background-image: url(../img/youtobe.svg);
+    background-position:center center; 
+}
+
+.social-vk{
+    background-image: url(../img/vk.svg);
+    background-position:center center; 
+}
+
+.social-facebook{
+    background-image: url(../img/fb.svg);
+    background-position:center center; 
+}
+
+
+.social-instagram{
+    background-image: url(../img/i.svg);
+    background-position:center center; 
+}
+.footer-top{
+  display:flex;  
+  align-items: center;
+  justify-self: space-between;
+}
+
+.footer-info button {
+    font-size: 14px;
+    border: 2px solid #66C05D;
+    border-radius: 20px;
+    background-color: transparent;
+    padding: 10px 25px;
+    margin-left: 36px;
+    transition: 0.2s ease;
+}
+
+.footer-info button:hover{
+    background-color:#66C05D;
+}
